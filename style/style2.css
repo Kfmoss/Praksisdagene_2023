@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lexend:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+   
+}
+body{
+    
+    font-family: 'Lexend';
+}
+#header{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#header .Logo .skole-logo{
+    width: 130px;
+
+}
+#header .button .python-logo{
+    width: 100px;
+}
+#header .menu{
+    
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+#header .menu a{
+    padding: 5px;
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+hr{
+    
+    height:5px;
+    border-width:0;
+    background-color:#7eb487;
+    box-shadow:1px 1px 3px rgba(5, 5, 243, 0.6) ;
+   
+
+}
+#main-menu{
+    /* background-color: #e4c5f2; */
+    background-color: #ffff;
+   
+
+}   
+#main-menu .menu{
+    /* height: 100vh; */
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 2fr;
+    margin: 1rem;
+    padding: 10px 0px 0px 0;
+    border-radius: 1rem;
+}
+
+
+#main-menu .menu a{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(230, 232, 238);
+    border-radius: 1rem;
+}
+.menu a img{
+    width: 100%;
+    border-radius: 1rem;
+
+}
+.menu p{
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    color: chocolate;
+
+}
+#body2 .b2{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 2fr;
+    margin: 1rem;
+    padding: 10px 0px 0px 0;
+    border-radius: 1rem;
+}
+.b2 a{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(230, 232, 238);
+    border-radius: 1rem;
+}
+.b2 a img{
+
+    width: 100%;
+    border-radius: 1rem;
+
+}
+.b2 p{
+    padding: 0 10px 0 10px;
+    font-size: 30px;
+    color: chocolate;
+
+}
+#body_2{
+    background-color: azure;
+ 
+}
+.b_2{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto;
+    padding: 0 10px 0 10px;
+    margin: 1rem;
+    padding: 15px;
+   
+    
+}
+
+#body_2 .b_2 img{
+    padding: 10px 0px 0px 0;
+    border-radius: 1rem;
+    width: 100%;
+    max-height: 350px;
+}
+#body_3 .b_3{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 2fr;
+    margin: 1rem;
+    padding: 10px 0px 0px 0;
+    border-radius: 1rem;
+
+}
+.b_3 img{
+    width: 100%;
+    border-radius: 1rem;
+}
+#body3 .b3{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 2fr;
+    margin: 1rem;
+    padding: 10px 0px 0px 0;
+    border-radius: 1rem;
+}
+.b3 a{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(230, 232, 238);
+    border-radius: 1rem;
+
+}
+.b3 a img{
+    width: 100%;
+    border-radius: 1rem;
+
+}
+.b3 p{
+    padding: 0 10px 0 10px;
+    font-size: 12px;
+}
+
+#body4 .b4{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 2fr;
+    margin: 1rem;
+    padding: 10px 0px 0px 0;
+    border-radius: 1rem;
+
+}
+.b4 a{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(230, 232, 238);
+    border-radius: 1rem;
+}
+.b4 a img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.b4 p{
+    padding: 0 10px 0 10px;
+    font-size: 12px;
+
+}
+
+footer{
+    background-color: coral;
+    
+}
+.elem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+
+}
+.elem a{
+    margin: 1rem;
+    
+   
+    
+    
+
+}
+
+
