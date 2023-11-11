@@ -81,33 +81,62 @@ hr{
     color: chocolate;
 
 }
-#body2 .b2{
-    gap: 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row: 2fr;
-    margin: 1rem;
-    padding: 10px 0px 0px 0;
-    border-radius: 1rem;
-}
-.b2 a{
-    text-decoration: none;
+#body2 h1{
     text-align: center;
-    background-color: rgb(230, 232, 238);
-    border-radius: 1rem;
+    font-size: 20px;
+
 }
-.b2 a img{
-
-    width: 100%;
+#body2 .b2{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+    /* padding: 10px 0px 0px 0; */
     border-radius: 1rem;
+    
+}
 
+.b2 h2{
+    font-size: 16px;
+    padding: 2px;
+    text-align: center;
 }
 .b2 p{
-    padding: 0 10px 0 10px;
-    font-size: 30px;
-    color: chocolate;
+    padding: 2px;
+    font-size: 12px;
+   
 
 }
+.b2 #a1, #a2{
+    background-color:#6b5b95 ;
+    color: white;
+}
+.b2 #b1, #b2{
+    background-color:#feb236;
+    color: white;
+}
+.b2 #c1, #c2{
+    background-color: #d64161;
+    color: white;
+}
+.b2 #d1, #d2{
+    background-color:#ff7b25 ;
+    color: white;
+}
+.r1{
+    display: grid;
+    grid-template-columns:  1fr 1fr; 
+    margin: 1rem;
+    gap: 10px;
+    align-items: center;
+}
+
+.r1 img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+
 #body_2{
     background-color: azure;
  
@@ -119,7 +148,7 @@ hr{
     grid-template-rows: auto;
     padding: 0 10px 0 10px;
     margin: 1rem;
-    padding: 15px;
+    /* padding: 15px; */
    
     
 }
@@ -201,19 +230,26 @@ footer{
     
 }
 .elem{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
+   
+  
+    
 
 
 }
 .elem a{
     margin: 1rem;
-    
-   
-    
-    
 
+}
+.info_skole p{
+    font-size: 19px;
+    font-weight: 600;
+    margin: 1
+    0.5rem 0 0.5rem 0;
+    font-size: 12px;
+    color: white;
+    text-align: center;
 }
 
 
